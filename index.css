@@ -1,0 +1,33 @@
+/* Custom Styles */
+body {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  background-attachment: fixed;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ffc107 !important;
+}
+
+/* Gallery hover */
+.gallery-img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Dark Mode */
+body.bg-dark {
+  background-color: #121212 !important;
+}
+body.bg-dark .card,
+body.bg-dark .navbar,
+body.bg-dark footer {
+  background-color: #1f1f1f !important;
+  color: #f5f5f5;
+}
