@@ -1,4 +1,5 @@
 The Savory Spot | Restaurant Landing Page
+
 🍽 Project Overview
 
 The Savory Spot is a fully responsive, single-page landing website for a restaurant.
